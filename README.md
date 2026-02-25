@@ -36,7 +36,7 @@ Tento repozitář obsahuje otevřená studijní data ve formátu **OQSE** (Open 
 Tato sada je plně kompatibilní s ekosystémem [Memizy](https://github.com/memizy/memizy). 
 
 Pro spuštění a studium nemusíte tento repozitář stahovat. Stačí si v aplikaci Memizy otevřít **Open Library** a vyhledat "Arteriální hypertenze", případně do aplikace vložit přímý odkaz na raw data:
-`https://cdn.jsdelivr.net/gh/memizy/set-1lf-kardiologie@main/data.oqse.json`
+`https://cdn.jsdelivr.net/gh/memizy/set-1lf-farmakologie@main/data.oqse.json`
 
 ---
 

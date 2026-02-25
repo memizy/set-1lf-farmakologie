@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🩺 Arteriální hypertenze a antihypertenziva (1. LF UK)
+# 🩺 Farmakologie (1. LF UK)
 **OQSE Study Set for Memizy**
 
 ![OQSE Version](https://img.shields.io/badge/OQSE-v0.1-orange?style=for-the-badge)

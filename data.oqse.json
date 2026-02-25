@@ -1,0 +1,1881 @@
+{
+  "$schema": "https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/v0.json",
+  "version": "0.1",
+  "meta": {
+    "id": "019c940f-c64e-7696-a110-8c14233325b4",
+    "title": "Farmakologie 1.LF",
+    "description": "Komplexní sada 100 otázek pokrývající diagnostiku, klasifikaci hypertenze a detailní farmakologii (ACEI, betablokátory, diuretika, BKK).",
+    "author": "Kamarád z 1. LF",
+    "subject": "Farmakologie",
+    "language": "cs",
+    "tags": ["1. LF", "Interna", "Kardiologie", "Farmakologie", "Hypertenze"],
+    "createdAt": "2024-03-20T12:00:00Z",
+    "updatedAt": "2024-03-20T12:00:00Z",
+    "estimatedTime": 90,
+    "requirements": {
+      "features": ["markdown"]
+    }
+  },
+  "items": [
+    {
+        "id": "019c9402-e90f-7c4a-8700-88b36bf218d7",
+        "type": "mcq-single",
+        "question": "Jaká je definice arteriální hypertenze podle měření v ordinaci?",
+        "options": [
+            "TK > 120/80 mmHg",
+            "TK > 130/85 mmHg",
+            "TK > 140/90 mmHg",
+            "TK > 160/100 mmHg"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7cd1-b875-469ad4ef9422",
+        "type": "mcq-single",
+        "question": "Jaká je přibližná prevalence hypertenze v populaci nad 55 let?",
+        "options": [
+            "20 %",
+            "40 %",
+            "50 %",
+            "70 %"
+        ],
+        "correctIndex": 3
+    },
+    {
+        "id": "019c9402-e90f-7e0b-be3e-815fb55d74f2",
+        "type": "mcq-single",
+        "question": "Která forma hypertenze tvoří přibližně 90 % všech případů?",
+        "options": [
+            "Sekundární hypertenze",
+            "Primární (esenciální) hypertenze",
+            "Renovaskulární hypertenze",
+            "Endokrinní hypertenze"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-73fb-92ae-c3332f601886",
+        "type": "mcq-single",
+        "question": "Jaké hodnoty TK odpovídají hypertenzi 1. stupně (mírné)?",
+        "options": [
+            "130–139 / 85–89 mmHg",
+            "140–159 / 90–99 mmHg",
+            "160–179 / 100–109 mmHg",
+            "> 180 / > 110 mmHg"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-707d-aef9-1d4a86192876",
+        "type": "mcq-single",
+        "question": "Co charakterizuje izolovanou systolickou hypertenzi?",
+        "options": [
+            "STK < 140 a DTK > 90 mmHg",
+            "STK >= 140 a DTK < 90 mmHg",
+            "STK >= 140 a DTK >= 90 mmHg",
+            "STK < 120 a DTK < 80 mmHg"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7a4d-856e-3d3361c734a6",
+        "type": "mcq-single",
+        "question": "Jak dlouho by měl pacient odpočívat před měřením krevního tlaku v ordinaci?",
+        "options": [
+            "1 minuta",
+            "3–5 minut",
+            "10–15 minut",
+            "30 minut"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7eb3-9f8c-1ca8d06ec653",
+        "type": "mcq-single",
+        "question": "Která z následujících látek může způsobovat lékovou hypertenzi?",
+        "options": [
+            "ACE inhibitory",
+            "Nesteroidní antirevmatika (NSAID)",
+            "Betablokátory",
+            "Statiny"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7120-b0a7-983179dfd105",
+        "type": "mcq-single",
+        "question": "Jaký je cílový systolický krevní tlak (sTK) pro většinu pacientů (zejména s vysokým KVS rizikem)?",
+        "options": [
+            "Okolo 120 mmHg",
+            "Okolo 130 mmHg",
+            "Okolo 140 mmHg",
+            "Pod 110 mmHg"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7b05-9fa3-0228bfe1960f",
+        "type": "mcq-single",
+        "question": "Kdy je doporučeno zahájit farmakoterapii ihned, ideálně fixní dvojkombinací?",
+        "options": [
+            "Při vysokém normálním tlaku",
+            "Při hypertenzi 1. stupně s nízkým rizikem",
+            "Při hypertenzi minimálně 2. stupně nebo vysokém KVS riziku",
+            "Pouze při symptomatické hypertenzi"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-773d-acef-3cbea2685503",
+        "type": "mcq-single",
+        "question": "Jaké je doporučené denní omezení příjmu soli v rámci nefarmakologické léčby?",
+        "options": [
+            "Méně než 2 g/den",
+            "Méně než 5 g/den",
+            "Méně než 10 g/den",
+            "Méně než 15 g/den"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-73e9-95ba-cfda9f9fd3dc",
+        "type": "mcq-single",
+        "question": "Která skupina léčiv nepatří mezi antihypertenziva 1. volby?",
+        "options": [
+            "ACE inhibitory",
+            "Betablokátory",
+            "Alfa-blokátory",
+            "Blokátory kalciových kanálů"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7c9e-9c68-054f46777952",
+        "type": "mcq-single",
+        "question": "Jaký je mechanismus účinku ACE inhibitorů?",
+        "options": [
+            "Blokáda receptorů AT1",
+            "Inhibice přeměny angiotenzinu I na angiotenzin II",
+            "Blokáda kalciových kanálů",
+            "Inhibice reabsorpce sodíku v Henleově kličce"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-76a9-8c0b-567caaf34935",
+        "type": "mcq-single",
+        "question": "Proč se u ACE inhibitorů objevuje suchý dráždivý kašel?",
+        "options": [
+            "Kvůli zvýšené hladině reninu",
+            "Kvůli akumulaci bradykininu",
+            "Kvůli hypokalemii",
+            "Kvůli reflexní tachykardii"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-71e5-b569-8301f0086657",
+        "type": "mcq-single",
+        "question": "Který z následujících léků patří mezi ARB (sartany)?",
+        "options": [
+            "Ramipril",
+            "Telmisartan",
+            "Amlodipin",
+            "Bisoprolol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7d1d-b632-b0ef8a539fa1",
+        "type": "mcq-single",
+        "question": "Co je hlavní kontraindikací podávání ACE inhibitorů i sartanů?",
+        "options": [
+            "Diabetes mellitus",
+            "Srdeční selhání",
+            "Těhotenství",
+            "Chronická obstrukční plicní nemoc"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-700c-8c63-c3186c44b1d1",
+        "type": "mcq-single",
+        "question": "Který minerálový rozvrat hrozí při léčbě ACE inhibitory?",
+        "options": [
+            "Hypokalemie",
+            "Hyperkalemie",
+            "Hypernatremie",
+            "Hyperkalcemie"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7a94-8a45-c94fe82ed4f5",
+        "type": "mcq-single",
+        "question": "Proč se běžně nekombinují ACE inhibitory a ARB (sartany)?",
+        "options": [
+            "Protože se vzájemně ruší jejich účinek",
+            "Protože benefit nepřevažuje nad riziky (hyperkalemie, renální selhání)",
+            "Protože to vede k těžké hypokalemii",
+            "Protože to způsobuje závažnou tachykardii"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7678-8ae4-e15f81b1e816",
+        "type": "mcq-single",
+        "question": "Který zástupce ACE inhibitorů není proléčivo (pro-drug)?",
+        "options": [
+            "Ramipril",
+            "Perindopril",
+            "Lisinopril",
+            "Enalapril"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7ba8-8e95-707c1a949118",
+        "type": "mcq-single",
+        "question": "Jakým mechanismem působí dihydropyridinové blokátory kalciových kanálů?",
+        "options": [
+            "Relaxace arteriálního hladkého svalu (vazodilatace)",
+            "Zpomalení vedení v AV uzlu",
+            "Zvýšení diurézy",
+            "Blokáda beta receptorů"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7fad-ac27-54e06abd6338",
+        "type": "mcq-single",
+        "question": "Který nežádoucí účinek je typický pro dihydropyridiny (např. amlodipin)?",
+        "options": [
+            "Bronchokonstrikce",
+            "Periferní edémy (perimaleolární)",
+            "Suchý kašel",
+            "Bradykardie"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-72ae-8399-56d65700b594",
+        "type": "mcq-single",
+        "question": "Který lék patří mezi non-dihydropyridinové blokátory kalciových kanálů?",
+        "options": [
+            "Amlodipin",
+            "Felodipin",
+            "Verapamil",
+            "Lerkanidipin"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7ecc-b74e-91c94e22182c",
+        "type": "mcq-single",
+        "question": "U jakého onemocnění jsou non-dihydropyridiny (verapamil, diltiazem) kontraindikovány?",
+        "options": [
+            "Ischemická choroba srdeční",
+            "Srdeční selhání (pro negativně inotropní účinek)",
+            "Migréna",
+            "Arteriální hypertenze"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-70df-9435-3faf3463349b",
+        "type": "mcq-single",
+        "question": "Kde v nefronu působí furosemid?",
+        "options": [
+            "Proximální tubulus",
+            "Vzestupné raménko Henleovy kličky",
+            "Distální tubulus",
+            "Sběrací kanálek"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-75f6-838f-528fb4dc526e",
+        "type": "mcq-single",
+        "question": "Jaký je hlavní nežádoucí účinek kličkových diuretik (furosemid) na elektrolyty?",
+        "options": [
+            "Hyperkalemie",
+            "Hypokalemie",
+            "Hypernatremie",
+            "Hyperkalcemie"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-70af-b7c5-0f7f25cac2b1",
+        "type": "mcq-single",
+        "question": "Které diuretikum je vhodné pro léčbu hypertenze a má delší účinek než hydrochlorothiazid?",
+        "options": [
+            "Furosemid",
+            "Chlortalidon",
+            "Acetazolamid",
+            "Manitol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7fa3-a9b8-501cd4538e58",
+        "type": "mcq-single",
+        "question": "Co je typickým metabolickým nežádoucím účinkem thiazidových diuretik?",
+        "options": [
+            "Hypourikemie",
+            "Hyperurikemie",
+            "Hypoglykemie",
+            "Hyperkalemie"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7be3-8507-6245e7eefa17",
+        "type": "mcq-single",
+        "question": "Které diuretikum je antagonistou mineralokortikoidních receptorů (MRB)?",
+        "options": [
+            "Indapamid",
+            "Spironolakton",
+            "Amilorid",
+            "Furosemid"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7926-97ca-f49765b6e9cd",
+        "type": "mcq-single",
+        "question": "Jaký specifický nežádoucí účinek má spironolakton (a méně eplerenon)?",
+        "options": [
+            "Kašel",
+            "Otoky kotníků",
+            "Gynekomastie",
+            "Tachykardie"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7ab2-886c-29930a71b32d",
+        "type": "mcq-single",
+        "question": "Které diuretikum se používá při akutním plicním edému pro svůj rychlý a intenzivní účinek?",
+        "options": [
+            "Hydrochlorothiazid",
+            "Furosemid",
+            "Spironolakton",
+            "Indapamid"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7081-9ded-8b85d40b5f15",
+        "type": "mcq-single",
+        "question": "Při jaké hodnotě glomerulární filtrace (eGFR) obvykle klesá účinek thiazidových diuretik?",
+        "options": [
+            "< 90 ml/min",
+            "< 60 ml/min",
+            "< 30 ml/min",
+            "< 15 ml/min"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-767f-ab9f-de4f3fa6da1b",
+        "type": "mcq-single",
+        "question": "Jaký účinek mají betablokátory na srdeční frekvenci?",
+        "options": [
+            "Pozitivně chronotropní (zrychlují)",
+            "Negativně chronotropní (zpomalují)",
+            "Žádný vliv",
+            "Pouze zvyšují kontraktilitu"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7487-891a-b1a2283165c2",
+        "type": "mcq-single",
+        "question": "Který betablokátor je vysoce kardioselektivní a má vazodilatační účinky přes NO?",
+        "options": [
+            "Metoprolol",
+            "Bisoprolol",
+            "Nebivolol",
+            "Propranolol"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7c39-ae1b-1bb0c2f3bbfd",
+        "type": "mcq-single",
+        "question": "Co znamená zkratka ISA u betablokátorů?",
+        "options": [
+            "Intenzivní sympatická aktivita",
+            "Vnitřní (intrinsic) sympatomimetická aktivita",
+            "Inhibice sympatické aktivity",
+            "Ireverzibilní systémová aktivace"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7160-a339-7d7499afed76",
+        "type": "mcq-single",
+        "question": "Který betablokátor blokuje alfa i beta receptory?",
+        "options": [
+            "Atenolol",
+            "Karvedilol",
+            "Metoprolol",
+            "Bisoprolol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-73b2-b88b-9c1aeea319f8",
+        "type": "mcq-single",
+        "question": "Jaké je riziko při náhlém vysazení betablokátorů?",
+        "options": [
+            "Rebound fenomén (tachykardie, hypertenze)",
+            "Hypotenze",
+            "Bradykardie",
+            "Renální selhání"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7486-a402-2e524311463e",
+        "type": "mcq-single",
+        "question": "Který betablokátor je hydrofilní a vylučuje se převážně ledvinami?",
+        "options": [
+            "Metoprolol",
+            "Karvedilol",
+            "Atenolol",
+            "Propranolol"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-71a2-9031-4364252fe938",
+        "type": "mcq-single",
+        "question": "Která skupina léků je lékem volby u hypertenze v těhotenství?",
+        "options": [
+            "ACE inhibitory",
+            "Sartany",
+            "Methyldopa",
+            "Diuretika"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7751-bbf6-834221ee4d14",
+        "type": "mcq-single",
+        "question": "Jaký je hlavní nežádoucí účinek alfa-1 blokátorů (např. doxazosin)?",
+        "options": [
+            "Bradykardie",
+            "Posturální (ortostatická) hypotenze",
+            "Hyperkalemie",
+            "Kašel"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7ecf-b2d6-ec54814f5461",
+        "type": "mcq-single",
+        "question": "Jaký lék se používá při farmakorezistentní hypertenzi jako lék do kombinace (obvykle 4. volba)?",
+        "options": [
+            "Spironolakton",
+            "Atenolol",
+            "Losartan",
+            "Verapamil"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7e2b-a2ef-862b55b20d7e",
+        "type": "mcq-single",
+        "question": "Který lék se používá intravenózně při hypertenzní krizi?",
+        "options": [
+            "Urapidil",
+            "Doxazosin",
+            "Methyldopa",
+            "Indapamid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7a19-a61a-c70a72dea835",
+        "type": "mcq-single",
+        "question": "Co je definice \"hypertensive emergency\"?",
+        "options": [
+            "TK > 180/110 bez příznaků",
+            "TK > 140/90 s bolestí hlavy",
+            "Vzestup TK se známkami akutního poškození orgánů",
+            "Stresová elevace TK"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-706b-a671-11a260106f24",
+        "type": "mcq-single",
+        "question": "Který z uvedených léků je centrálně působící antihypertenzivum (agonista imidazolinových receptorů)?",
+        "options": [
+            "Rilmenidin",
+            "Ramipril",
+            "Bisoprolol",
+            "Furosemid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-72c0-9876-f27ad1bf218b",
+        "type": "mcq-single",
+        "question": "Jaký je doporučený postup u hypertenzní krize (kromě disekce aorty a iCMP)?",
+        "options": [
+            "Snížit TK k normě během 10 minut",
+            "Snížit TK max o 25 % v první hodině",
+            "Nesnižovat TK vůbec",
+            "Podat ihned 3 kombinaci p.o."
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-75d9-9bac-f9c32ef704b6",
+        "type": "mcq-single",
+        "question": "Která látka může snížit účinek antihypertenziv a způsobit retenci sodíku?",
+        "options": [
+            "Paracetamol",
+            "Ibuprofen (NSAID)",
+            "Vitamin C",
+            "Magnézium"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-753b-b56f-d5e747111496",
+        "type": "mcq-single",
+        "question": "Jaký je typický nežádoucí účinek amlodipinu, který často vede k nutnosti změny léčby?",
+        "options": [
+            "Kašel",
+            "Otoky kotníků",
+            "Průjem",
+            "Zvracení"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-74ab-9b9c-5fb062a530b3",
+        "type": "mcq-single",
+        "question": "Která skupina antihypertenziv má renoprotektivní účinek u diabetické nefropatie?",
+        "options": [
+            "Betablokátory",
+            "ACE inhibitory / ARB",
+            "Alfa-blokátory",
+            "Centrální mimetika"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7925-b05b-0f399a0ce1a4",
+        "type": "mcq-single",
+        "question": "Který lék je vhodný u pacienta s hypertenzí a hypertrofií prostaty (BHP)?",
+        "options": [
+            "Doxazosin",
+            "Bisoprolol",
+            "Furosemid",
+            "Verapamil"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-785c-b1da-715ab835433f",
+        "type": "mcq-single",
+        "question": "Proč se u pacientů s ischemickou chorobou dolních končetin (ICHDK) podávají betablokátory s opatrností?",
+        "options": [
+            "Zvyšují riziko krvácení",
+            "Mohou způsobit periferní vazokonstrikci a zhoršit klaudikace",
+            "Způsobují otoky",
+            "Zvyšují glykemii"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7b7a-987c-38a8c40056fc",
+        "type": "mcq-single",
+        "question": "Které antihypertenzivum je vhodné u pacienta po infarktu myokardu?",
+        "options": [
+            "Betablokátor",
+            "Doxazosin",
+            "Rilmenidin",
+            "Furosemid (v monoterapii)"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-714d-93a5-672de9863dcd",
+        "type": "mcq-single",
+        "question": "Jaká je maximální doporučená denní dávka hydrochlorothiazidu při léčbě hypertenze?",
+        "options": [
+            "12,5 – 25 mg",
+            "50 mg",
+            "100 mg",
+            "200 mg"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7a7d-aa45-56e42edef8bd",
+        "type": "mcq-single",
+        "question": "Který z následujících léků zvyšuje hladinu draslíku (K+)?",
+        "options": [
+            "Furosemid",
+            "Hydrochlorothiazid",
+            "Amilorid",
+            "Indapamid"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7a34-9403-146236007293",
+        "type": "mcq-single",
+        "question": "Co je mechanismem účinku minoxidilu?",
+        "options": [
+            "Blokáda beta receptorů",
+            "Přímá periferní vazodilatace (otevření K+ kanálů)",
+            "Inhibice ACE",
+            "Centrální alfa-2 agonismus"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-70e6-9bd8-695a21061dd7",
+        "type": "mcq-single",
+        "question": "Jaký vliv mají betablokátory na metabolismus glukózy a lipidů (zejména neselektivní)?",
+        "options": [
+            "Příznivý (zvyšují HDL, snižují glykemii)",
+            "Neutrální",
+            "Nepříznivý (mohou zhoršit inzulinovou rezistenci a lipidogram)",
+            "Výrazně snižují cholesterol"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7a30-9edb-282bdb7ae4fa",
+        "type": "mcq-single",
+        "question": "Které diuretikum se používá k léčbě glaukomu?",
+        "options": [
+            "Acetazolamid",
+            "Furosemid",
+            "Indapamid",
+            "Amilorid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-77bf-8d91-a1b8da8d4bd4",
+        "type": "mcq-single",
+        "question": "Který lék má tzv. \"first-dose phenomenon\" (fenomén první dávky)?",
+        "options": [
+            "Betablokátory",
+            "Alfa-blokátory (Prazosin, Doxazosin)",
+            "BKK",
+            "Thiazidy"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-77fb-b70b-e3a6d5788d30",
+        "type": "mcq-single",
+        "question": "Které tvrzení o kombinaci ACEI a BKK je pravdivé?",
+        "options": [
+            "Je kontraindikována",
+            "Zvyšuje riziko otoků",
+            "Snižuje výskyt otoků způsobených BKK",
+            "Nemá synergický efekt"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-74ec-9529-1594a29032e0",
+        "type": "mcq-single",
+        "question": "Jaká je definice rezistentní hypertenze?",
+        "options": [
+            "TK > 140/90 při užívání 2 léků",
+            "TK > 140/90 při užívání 3 léků vč. diuretika",
+            "TK > 160/100 bez léčby",
+            "Nesnášenlivost léčby"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7613-9930-446f43c7fe4a",
+        "type": "mcq-single",
+        "question": "Co je hlavním rizikem při podání verapamilu v kombinaci s betablokátorem?",
+        "options": [
+            "Hypertenzní krize",
+            "AV blokáda a závažná bradykardie",
+            "Tachykardie",
+            "Hypokalemie"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7661-8fe7-2b3fc56072d3",
+        "type": "mcq-single",
+        "question": "Který lék je indikován u primárního hyperaldosteronismu?",
+        "options": [
+            "Furosemid",
+            "Spironolakton",
+            "Ramipril",
+            "Amlodipin"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7b13-9f4e-6c7f1eaadfad",
+        "type": "mcq-single",
+        "question": "Jaký účinek má angiotenzin II na cévy?",
+        "options": [
+            "Vazodilatace",
+            "Vazokonstrikce",
+            "Žádný",
+            "Zvyšuje permeabilitu bez změny tonu"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7dff-951e-e240d8eb4e36",
+        "type": "mcq-single",
+        "question": "Které diuretikum působí v proximálním tubulu?",
+        "options": [
+            "Furosemid",
+            "Hydrochlorothiazid",
+            "Acetazolamid",
+            "Spironolakton"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7244-860c-5aaa1068572b",
+        "type": "mcq-single",
+        "question": "Který lék patří mezi glifloziny (SGLT2 inhibitory)?",
+        "options": [
+            "Empagliflozin",
+            "Sitagliptin",
+            "Metformin",
+            "Gliklazid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7a90-8a43-5546903da839",
+        "type": "mcq-single",
+        "question": "Jaký je vliv nesteroidních antirevmatik (NSAID) na ledviny?",
+        "options": [
+            "Dilatace vas afferens",
+            "Konstrikce vas afferens",
+            "Dilatace vas efferens",
+            "Konstrikce vas efferens"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7d87-bba7-fc69077c47bc",
+        "type": "mcq-single",
+        "question": "Který z následujících faktorů zvyšuje kardiovaskulární riziko u hypertonika?",
+        "options": [
+            "Nízký LDL cholesterol",
+            "Vysoká fyzická aktivita",
+            "Kouření",
+            "Ženské pohlaví v mladém věku"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7175-a2c1-3f9ff90f9c3b",
+        "type": "mcq-single",
+        "question": "Co je \"hypertenze bílého pláště\"?",
+        "options": [
+            "Vysoký tlak doma, normální v ordinaci",
+            "Vysoký tlak v ordinaci, normální doma",
+            "Trvale vysoký tlak",
+            "Trvale nízký tlak"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7e7c-a4c4-e0e0acdd3e4a",
+        "type": "mcq-single",
+        "question": "Jaký vliv má stimulace beta-1 receptorů v srdci?",
+        "options": [
+            "Snížení tepové frekvence",
+            "Zvýšení tepové frekvence a kontraktility",
+            "Bronchokonstrikce",
+            "Vazodilatace"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7e7d-9783-e9a5781ad2f4",
+        "type": "mcq-single",
+        "question": "Které léčivo patří mezi centrální myorelaxancia s antihypertenzním účinkem (užívá se i u spasticity, v dokumentu zmíněn spíše historicky/okrajově v kontextu agonistů alfa2)?",
+        "options": [
+            "Tizanidin/Klonidin",
+            "Baclofen",
+            "Diazepam",
+            "Guaifenesin"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-77ad-9683-a0f9586feec7",
+        "type": "mcq-single",
+        "question": "Proč je u feochromocytomu nutné podát alfa-blokátor PŘED betablokátorem?",
+        "options": [
+            "Aby se zabránilo bradykardii",
+            "Aby se zabránilo hypertenzní krizi z neoponované stimulace alfa receptorů",
+            "Aby se zvýšila diuréza",
+            "Protože beta blokátory nefungují"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-71b2-b1e8-6b88b2e7d1bf",
+        "type": "mcq-single",
+        "question": "Jaký je preferovaný lék pro kontrolu frekvence u fibrilace síní?",
+        "options": [
+            "Betablokátor",
+            "Alfa-blokátor",
+            "ACE inhibitor",
+            "Diuretikum"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-76dd-8921-1ce49cb937fc",
+        "type": "mcq-single",
+        "question": "Který betablokátor má nejkratší poločas a používá se v infuzi (např. při operacích)?",
+        "options": [
+            "Metoprolol",
+            "Bisoprolol",
+            "Esmolol",
+            "Sotalol"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7b65-ae5e-ab02bec19a40",
+        "type": "mcq-single",
+        "question": "Co je příčinou renální parenchymatózní hypertenze?",
+        "options": [
+            "Stenóza renální tepny",
+            "Poškození ledvinné tkáně (např. glomerulonefritida)",
+            "Nádor nadledvin",
+            "Hypotyreóza"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7332-a809-af9e612c5cf7",
+        "type": "mcq-single",
+        "question": "Který lék může způsobit polékový lupus erythematodes (v dokumentu zmíněn nepřímo v sekci obsolentních/historky nebo vedlejších účinků hydralazinu/metyldopy)?",
+        "options": [
+            "Hydralazin/Methyldopa",
+            "Amlodipin",
+            "Ramipril",
+            "Furosemid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-76c6-929f-63ebcee4e545",
+        "type": "mcq-single",
+        "question": "Jaký je mechanismus účinku inhibitorů karboanhydrázy?",
+        "options": [
+            "Inhibice resorpce bikarbonátu v proximálním tubulu",
+            "Blokáda Na/K/2Cl transportéru",
+            "Blokáda aldosteronu",
+            "Inhibice Na/Cl transportéru"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7caf-a5d0-bb5b53c35b1a",
+        "type": "mcq-single",
+        "question": "Který iont je zvýšeně vylučován při užívání kličkových diuretik (spolu s Na+ a K+)?",
+        "options": [
+            "Vápník (Ca2+)",
+            "Glukóza",
+            "Bílkoviny",
+            "Cholesterol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7b75-bd3c-1701559e10a7",
+        "type": "mcq-single",
+        "question": "Které diuretikum naopak zvyšuje reabsorpci vápníku (snižuje kalciurii)?",
+        "options": [
+            "Furosemid",
+            "Hydrochlorothiazid",
+            "Spironolakton",
+            "Acetazolamid"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7b32-ad6a-e6ea4c98c479",
+        "type": "mcq-single",
+        "question": "Jaký je vliv nesteroidních mineralokortikoidních antagonistů (finerenon)?",
+        "options": [
+            "Pouze diuretický",
+            "Renoprotektivní a kardioprotektivní s menším rizikem hyperkalemie",
+            "Zvyšuje krevní tlak",
+            "Způsobuje masivní hypokalemii"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7da5-9af1-240a3f05e2be",
+        "type": "mcq-single",
+        "question": "Který lék je vhodný pro \"rate control\" u fibrilace síní, pokud jsou betablokátory kontraindikovány?",
+        "options": [
+            "Verapamil",
+            "Amlodipin",
+            "Nifedipin",
+            "Furosemid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7a2f-86cc-6543dd6eb47d",
+        "type": "mcq-single",
+        "question": "Která kombinace léků tvoří základ léčby srdečního selhání (HFrEF)?",
+        "options": [
+            "ACEI/ARB + BB + MRA",
+            "BKK + Diuretikum",
+            "Alfa blokátor + BB",
+            "Nitráty + BKK"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7714-bc0b-c4d9592822b8",
+        "type": "mcq-single",
+        "question": "Co znamená zkratka RAAS?",
+        "options": [
+            "Renin-Angiotenzin-Aldosteron Systém",
+            "Renální-Arteriální-Activační Systém",
+            "Rapid-Acting-Antihypertensive System",
+            "Retence-Aldosteronu-A-Sodíku"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7028-9cd5-7e1a286cecb1",
+        "type": "mcq-single",
+        "question": "Který lék se používá v očním lékařství (kapky) a je betablokátorem?",
+        "options": [
+            "Timolol",
+            "Metoprolol",
+            "Atenolol",
+            "Bisoprolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7bcf-8ddd-0304a1fa5dab",
+        "type": "mcq-single",
+        "question": "Co je příčinou renovaskulární hypertenze u starších pacientů?",
+        "options": [
+            "Ateroskleróza renální tepny",
+            "Fibromuskulární dysplázie",
+            "Glomerulonefritida",
+            "Cysty ledvin"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-76c5-b545-6e8313be73eb",
+        "type": "mcq-single",
+        "question": "Jakou roli má bradykinin při léčbě ACE inhibitory?",
+        "options": [
+            "Způsobuje vazokonstrikci",
+            "Jeho degradace je inhibována, což vede k vazodilataci, ale i kašli",
+            "Je blokován",
+            "Nemá žádnou roli"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-76ef-9d1b-708ff21e3879",
+        "type": "mcq-single",
+        "question": "Jaký je doporučený postup při naměření TK > 140/90 při jedné návštěvě?",
+        "options": [
+            "Ihned nasadit léky",
+            "Opakovat měření při dalších návštěvách k potvrzení diagnózy (pokud nejde o 3. stupeň)",
+            "Ignorovat",
+            "Poslat na operaci"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7c6e-9dee-2b4a3ff7251d",
+        "type": "mcq-single",
+        "question": "Která hodnota obvodu pasu je rizikovým faktorem metabolického syndromu (u mužů)?",
+        "options": [
+            "> 94 cm (resp. > 102 cm)",
+            "> 80 cm",
+            "> 120 cm",
+            "> 70 cm"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-78ef-a6a5-6593a195ada0",
+        "type": "mcq-single",
+        "question": "Který lék je přímým inhibitorem reninu?",
+        "options": [
+            "Aliskiren",
+            "Ramipril",
+            "Valsartan",
+            "Amlodipin"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7fa7-938a-fbdad1c02780",
+        "type": "mcq-single",
+        "question": "Jaké je riziko kombinace verapamilu a digoxinu?",
+        "options": [
+            "Riziko bradykardie a zvýšení hladiny digoxinu",
+            "Snížení účinku digoxinu",
+            "Hypertenze",
+            "Hypokalemie"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7cce-9def-8b36fc01a1c6",
+        "type": "mcq-single",
+        "question": "Které antihypertenzivum může způsobit depresi a poruchy spánku (noční můry)?",
+        "options": [
+            "Lipofilní betablokátory",
+            "ACE inhibitory",
+            "Diuretika",
+            "BKK"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-75d4-93da-684b19abe614",
+        "type": "mcq-single",
+        "question": "Jaký je účinek stimulace alfa-2 receptorů v CNS (např. methyldopa)?",
+        "options": [
+            "Snížení sympatické aktivity (negative feedback)",
+            "Zvýšení sympatické aktivity",
+            "Přímá vazokonstrikce",
+            "Zvýšení tepové frekvence"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-711b-8863-b92415c4d39f",
+        "type": "mcq-single",
+        "question": "Který lék se používá k léčbě alopecie, ale má silný hypotenzní účinek jako vedlejší efekt (vazodilatans)?",
+        "options": [
+            "Minoxidil",
+            "Furosemid",
+            "Captopril",
+            "Atenolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7230-b9a5-10d2de9d43b5",
+        "type": "mcq-single",
+        "question": "Která třída antihypertenziv je nejvhodnější pro pacienty s izolovanou systolickou hypertenzí (seniory)?",
+        "options": [
+            "Betablokátory",
+            "BKK a diuretika",
+            "ACE inhibitory (monoterapie)",
+            "Alfa blokátory"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7037-a523-092181f7c731",
+        "type": "mcq-single",
+        "question": "Co je hlavním cílem léčby hypertenze?",
+        "options": [
+            "Pouze snížení číselné hodnoty TK",
+            "Snížení kardiovaskulární morbidity a mortality",
+            "Odstranění všech léků",
+            "Zvýšení srdeční frekvence"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-731c-9512-1a457bc44bd0",
+        "type": "mcq-single",
+        "question": "Jaké riziko představuje hypokalemie u kardiaků?",
+        "options": [
+            "Vznik arytmií",
+            "Bradykardie",
+            "Otoky",
+            "Zácpa"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7e52-88a3-0c0756b4803d",
+        "type": "mcq-single",
+        "question": "Který betablokátor má nejvyšší lipofilitu a prochází do CNS?",
+        "options": [
+            "Propranolol",
+            "Atenolol",
+            "Sotalol",
+            "Bisoprolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7e90-b2dd-30691d4c55f7",
+        "type": "mcq-single",
+        "question": "Jak se nazývá fenomén, kdy při přílišném snížení diastolického tlaku (např. < 60-70 mmHg) roste riziko KVS příhod?",
+        "options": [
+            "J-křivka (J-curve phenomenon)",
+            "U-efekt",
+            "Rebound fenomén",
+            "Steal fenomén"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7dc7-ba2a-4b59662ac96d",
+        "type": "mcq-single",
+        "question": "Který lék je antagonistou receptorů pro aldosteron, ale nemá steroidní strukturu (v textu zmíněn jako \"nově\")?",
+        "options": [
+            "Finerenon",
+            "Spironolakton",
+            "Eplerenon",
+            "Amilorid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-731d-b426-54d9bf90b086",
+        "type": "mcq-single",
+        "question": "Co je typickým znakem hypertenze 3. stupně?",
+        "options": [
+            "TK 140-159/90-99",
+            "TK 160-179/100-109",
+            "TK >= 180/110",
+            "TK < 120/80"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7360-9153-553f919f3348",
+        "type": "mcq-single",
+        "question": "Jaký je vliv estrogenů (v hormonální antikoncepci) na krevní tlak?",
+        "options": [
+            "Zvyšují syntézu angiotenzinogenu a retenci Na+",
+            "Snižují TK vazodilatací",
+            "Nemají vliv",
+            "Blokují aldosteron"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-72b7-9ffc-67ed317ba7a1",
+        "type": "mcq-single",
+        "question": "Která látka v lékořici může způsobit hypertenzi?",
+        "options": [
+            "Glycyrrhizin",
+            "Kofein",
+            "Tyramin",
+            "Nikotin"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-729f-9d71-9c8aebfb4d69",
+        "type": "mcq-single",
+        "question": "Jaký je hlavní mechanismus, kterým obezita přispívá k hypertenzi?",
+        "options": [
+            "Zvýšená aktivita sympatiku a RAAS",
+            "Snížený objem krve",
+            "Snížená hladina inzulinu",
+            "Hypotyreóza"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7546-9677-8bf295a93ebc",
+        "type": "mcq-single",
+        "question": "Který lék se používá k profylaxi migrény?",
+        "options": [
+            "Metoprolol/Propranolol",
+            "Furosemid",
+            "Ramipril",
+            "Doxazosin"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7e33-a436-6ce0e03d1d42",
+        "type": "mcq-single",
+        "question": "Proč je vhodné podávat antihypertenziva v kombinaci (např. ACEI + diuretikum)?",
+        "options": [
+            "Synergický účinek a snížení nežádoucích účinků",
+            "Zvýšení ceny léčby",
+            "Nutnost vyšších dávek",
+            "Zhoršení compliance"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7e02-b6f5-39e4f790041d",
+        "type": "mcq-single",
+        "question": "Který lék byste nepodali pacientovi s dnou (hyperurikemií)?",
+        "options": [
+            "Hydrochlorothiazid",
+            "Losartan",
+            "Amlodipin",
+            "Metoprolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7970-82e3-5ed6f71ca9bd",
+        "type": "mcq-single",
+        "question": "Jak dlouho trvá nástup plného účinku betablokátorů na krevní tlak?",
+        "options": [
+            "Několik minut",
+            "2-3 týdny",
+            "6 měsíců",
+            "1 hodinu"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-70f1-8c1a-ebee072fc62a",
+        "type": "mcq-single",
+        "question": "Co je to \"maskovaná hypertenze\"?",
+        "options": [
+            "Normální tlak v ordinaci, vysoký doma/při monitorování",
+            "Vysoký tlak v ordinaci, normální doma",
+            "Normální tlak vždy",
+            "Hypertenze v noci"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-74f6-930b-d786c740b57a",
+        "type": "mcq-single",
+        "question": "Který zástupce betablokátorů má také alfa-blokující účinek (vazodilataci)?",
+        "options": [
+            "Karvedilol",
+            "Metoprolol",
+            "Bisoprolol",
+            "Atenolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7340-892d-ad5c5d4e0aed",
+        "type": "mcq-single",
+        "question": "Který lék je inhibitorem P-glykoproteinu a CYP3A4?",
+        "options": [
+            "Verapamil",
+            "Amlodipin",
+            "Ramipril",
+            "Hydrochlorothiazid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-74fb-ab2c-7a06229e5538",
+        "type": "mcq-single",
+        "question": "Které antihypertenzivum může zhoršit příznaky Raynaudova syndromu (chladné končetiny)?",
+        "options": [
+            "Betablokátory",
+            "BKK",
+            "ACE inhibitory",
+            "Alfa blokátory"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-717d-aff1-88ae68b1e182",
+        "type": "mcq-single",
+        "question": "Jaký je hlavní mechanismus účinku Indapamidu?",
+        "options": [
+            "Vazodilatace + mírný saluretický efekt",
+            "Silná diuréza",
+            "Centrální inhibice",
+            "Blokáda beta receptorů"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7e25-bf7f-25cb458d02f1",
+        "type": "mcq-single",
+        "question": "Která látka se používá pro diagnostiku a krátkodobou léčbu feochromocytomu (alfa blokátor)?",
+        "options": [
+            "Fentolamin",
+            "Metoprolol",
+            "Furosemid",
+            "Captopril"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7d58-8c09-424b4db02592",
+        "type": "mcq-single",
+        "question": "Co je \"coronary steal phenomenon\" u krátkodobě působících DHP (nifedipin)?",
+        "options": [
+            "Odlití krve z ischemické oblasti do dilatovaných zdravých cév",
+            "Zvýšení průtoku v ischemické oblasti",
+            "Snížení tepové frekvence",
+            "Zvýšení kontraktility"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7091-9826-608ffabff048",
+        "type": "mcq-single",
+        "question": "Jaká je definice izolované systolické hypertenze podle hodnot TK?",
+        "options": [
+            "sTK >= 140 mmHg, dTK < 90 mmHg",
+            "sTK >= 140 mmHg, dTK >= 90 mmHg",
+            "sTK < 140 mmHg, dTK >= 90 mmHg",
+            "sTK > 160 mmHg, dTK < 80 mmHg"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7343-bdb6-fe2d6bc868c5",
+        "type": "mcq-single",
+        "question": "Kolik měření krevního tlaku se provádí při návštěvě v ordinaci pro stanovení diagnózy?",
+        "options": [
+            "Pouze jedno",
+            "Dvě měření",
+            "Tři měření (řídíme se průměrem 2. a 3.)",
+            "Pět měření"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-70b5-9e00-cdcd906b5078",
+        "type": "mcq-single",
+        "question": "Která studie v USA připustila možnost automatického měření TK bez přítomnosti personálu?",
+        "options": [
+            "ALLHAT",
+            "SPRINT",
+            "ONTARGET",
+            "HOPE"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-72eb-a2f9-25cefaff49dc",
+        "type": "mcq-single",
+        "question": "Jaká je doporučená denní dávka alkoholu pro muže v rámci nefarmakologické léčby hypertenze?",
+        "options": [
+            "< 10 g/den",
+            "< 20 g/den",
+            "< 30 g/den",
+            "< 40 g/den"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7537-a21a-5cb0d6ad50d8",
+        "type": "mcq-single",
+        "question": "Jaký vliv má syndrom spánkové apnoe na krevní tlak?",
+        "options": [
+            "Snižuje krevní tlak",
+            "Je velmi častou příčinou sekundární hypertenze",
+            "Nemá žádný vliv",
+            "Způsobuje hypotenzi v noci"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7b06-9a1d-5b768c345e34",
+        "type": "mcq-single",
+        "question": "Která látka obsažená v kapkách do nosu (dekongestivech) může zvyšovat krevní tlak?",
+        "options": [
+            "Paracetamol",
+            "Pseudoefedrin/Fenylefrin",
+            "Kyselina hyaluronová",
+            "Mátový olej"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7ae2-aa50-c0cbca2d7f95",
+        "type": "mcq-single",
+        "question": "Jaký mechanismus lékové hypertenze je typický pro kortikosteroidy?",
+        "options": [
+            "Přímá vazokonstrikce",
+            "Retence sodíku a tekutin + aktivace RAAS",
+            "Zvýšení hladiny noradrenalinu",
+            "Inhibice VEGF"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-71d7-814b-f18683facd01",
+        "type": "mcq-single",
+        "question": "Jaký vliv mají antidepresiva typu SNRI (např. venlafaxin) na krevní tlak?",
+        "options": [
+            "Snižují tlak vazodilatací",
+            "Mohou zvyšovat tlak zvýšením hladiny noradrenalinu",
+            "Nemají žádný vliv",
+            "Způsobují masivní diurézu"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-76ce-83dc-82b1c1db2865",
+        "type": "mcq-single",
+        "question": "Která biologická léčba (anti-VEGF) je spojena s rizikem hypertenze?",
+        "options": [
+            "Bevacizumab",
+            "Infliximab",
+            "Rituximab",
+            "Adalimumab"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-71f6-b60b-76a651298291",
+        "type": "mcq-single",
+        "question": "Co znamená \"J-křivka\" v kontextu léčby hypertenze u pacientů s pokročilou aterosklerózou?",
+        "options": [
+            "Lineární pokles rizika s poklesem tlaku",
+            "Vyšší výskyt KVS příhod při přílišném snížení sTK (např. pod 120 mmHg)",
+            "Rychlý nástup účinku léků",
+            "Nemožnost snížit tlak pod určitou hranici"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-76f8-8efa-9159069c0503",
+        "type": "mcq-single",
+        "question": "Který receptor blokují sartany (ARB) pro dosažení antihypertenzního účinku?",
+        "options": [
+            "AT1 receptor",
+            "AT2 receptor",
+            "Beta-1 receptor",
+            "Alfa-1 receptor"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7680-8d30-781adb44ce38",
+        "type": "mcq-single",
+        "question": "Jaký účinek má angiotenzin II na eferentní arterioly v ledvinách (vas efferens)?",
+        "options": [
+            "Vazodilatace",
+            "Vazokonstrikce",
+            "Bez vlivu",
+            "Zvýšení permeability"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7199-aa46-3c0df94005c1",
+        "type": "mcq-single",
+        "question": "Který ACE inhibitor je vylučován aktivními metabolity s různou mírou renální eliminace a je pro-drug?",
+        "options": [
+            "Lisinopril",
+            "Ramipril",
+            "Kaptopril",
+            "Spironolakton"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7f40-8aeb-888d3e25b053",
+        "type": "mcq-single",
+        "question": "Který ACE inhibitor se musí podávat 3x denně kvůli krátkému poločasu?",
+        "options": [
+            "Perindopril",
+            "Ramipril",
+            "Kaptopril",
+            "Trandolapril"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7306-8344-4f2c76f0a3f1",
+        "type": "mcq-single",
+        "question": "Co je typickou laboratorní známkou při léčbě ACE inhibitory, kterou je nutné monitorovat?",
+        "options": [
+            "Pokles urey",
+            "Vzestup kreatininu a draslíku",
+            "Pokles draslíku",
+            "Vzestup sodíku"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7fe5-bb7a-e61ac7884ce7",
+        "type": "mcq-single",
+        "question": "Jaký je vliv ACE inhibitorů na metabolismus cukrů?",
+        "options": [
+            "Zhoršují inzulinovou rezistenci",
+            "Metabolicky neutrální až příznivý (snížení rizika DM2)",
+            "Způsobují hyperglykemii",
+            "Zvyšují riziko ketoacidózy"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-752c-97d1-b85b77ab6933",
+        "type": "mcq-single",
+        "question": "Která studie prokázala, že kombinace ACEI + ARB nezlepšuje KVS riziko a zvyšuje nežádoucí účinky?",
+        "options": [
+            "SPRINT",
+            "ONTARGET",
+            "ALLHAT",
+            "HOPE"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-790f-a6b6-b6bddcb155d7",
+        "type": "mcq-single",
+        "question": "Co se stane s hladinou reninu při léčbě dihydropyridiny?",
+        "options": [
+            "Klesá",
+            "Nemění se",
+            "Stoupá (v důsledku dilatace vas afferens)",
+            "Zcela vymizí"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-73c4-930f-bb07ac1c2956",
+        "type": "mcq-single",
+        "question": "Který blokátor kalciových kanálů je kontraindikován při AV blokádě II. a III. stupně?",
+        "options": [
+            "Amlodipin",
+            "Felodipin",
+            "Verapamil",
+            "Lerkanidipin"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-70bf-8285-611fe2d18308",
+        "type": "mcq-single",
+        "question": "Jaký je mechanismus vzniku otoků u dihydropyridinů?",
+        "options": [
+            "Retence sodíku v ledvinách",
+            "Prekapilární vazodilatace (zvýšení hydrostatického tlaku)",
+            "Srdeční selhání",
+            "Lymfatická blokáda"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7277-950f-e7c77a907f6d",
+        "type": "mcq-single",
+        "question": "Který dihydropyridin patří do III. generace a má dlouhodobý účinek?",
+        "options": [
+            "Nifedipin",
+            "Felodipin",
+            "Lerkanidipin",
+            "Verapamil"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-72f9-8950-e0d80c18541f",
+        "type": "mcq-single",
+        "question": "Jaký účinek má verapamil na P-glykoprotein (P-gp)?",
+        "options": [
+            "Induktor",
+            "Inhibitor",
+            "Substrát bez vlivu na aktivitu",
+            "Aktivátor"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-733c-a214-89ad170f41a1",
+        "type": "mcq-single",
+        "question": "Proč se dihydropyridiny 1. generace (nifedipin krátkodobý) nedoporučují v monoterapii hypertenze?",
+        "options": [
+            "Způsobují bradykardii",
+            "Vyvolávají reflexní tachykardii a aktivaci sympatiku",
+            "Jsou nefrotoxické",
+            "Nejsou účinné"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7c60-a84c-1739ee6f8d0c",
+        "type": "mcq-single",
+        "question": "Jaký je hlavní mechanismus účinku acetazolamidu?",
+        "options": [
+            "Inhibice Na/K/2Cl",
+            "Inhibice karboanhydrázy v proximálním tubulu",
+            "Osmotická diuréza",
+            "Blokáda aldosteronu"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7dde-98a3-5cb2ff3c38f8",
+        "type": "mcq-single",
+        "question": "Které diuretikum způsobuje metabolickou acidózu?",
+        "options": [
+            "Furosemid",
+            "Hydrochlorothiazid",
+            "Acetazolamid",
+            "Indapamid"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7780-9444-4570eb7f5ed9",
+        "type": "mcq-single",
+        "question": "K jakému účelu se primárně používá mannitol?",
+        "options": [
+            "Léčba esenciální hypertenze",
+            "Snížení intrakraniálního tlaku (edém mozku)",
+            "Léčba srdečního selhání",
+            "Prevence dna"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7b57-b3a8-008153a0f872",
+        "type": "mcq-single",
+        "question": "Kolik procent sodíku se maximálně vyloučí při použití kličkových diuretik (furosemid)?",
+        "options": [
+            "< 2 %",
+            "< 8 %",
+            "< 25 %",
+            "< 50 %"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-7c42-ad4c-08a2ba43a994",
+        "type": "mcq-single",
+        "question": "Jaká je vazba furosemidu na plazmatické bílkoviny?",
+        "options": [
+            "Nízká (< 10 %)",
+            "Střední (50 %)",
+            "Vysoká (> 95 %)",
+            "Neváže se"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": "019c9402-e90f-75eb-aca3-1d41adc2a707",
+        "type": "mcq-single",
+        "question": "Která látka může při současném podávání s furosemidem zvýšit riziko ototoxicity?",
+        "options": [
+            "Penicilin",
+            "Aminoglykosidy (např. gentamicin)",
+            "Vitamín C",
+            "Paracetamol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7a81-89d5-619b5759c09e",
+        "type": "mcq-single",
+        "question": "Jaký vliv mají thiazidová diuretika na vylučování vápníku?",
+        "options": [
+            "Zvyšují vylučování (kalciurie)",
+            "Snižují vylučování (retence vápníku)",
+            "Nemají vliv",
+            "Závisí na pH moči"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-74b8-961d-a740089ddba3",
+        "type": "mcq-single",
+        "question": "Který nežádoucí účinek je společný pro thiazidy i kličková diuretika?",
+        "options": [
+            "Hyperkalemie",
+            "Hyperurikemie",
+            "Hyperkalcemie",
+            "Metabolická acidóza"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7de7-97d2-37c63c076bac",
+        "type": "mcq-single",
+        "question": "Které diuretikum se preferuje u pacientů s diabetem a dyslipidemií pro svou metabolickou neutralitu?",
+        "options": [
+            "Hydrochlorothiazid",
+            "Indapamid",
+            "Acetazolamid",
+            "Mannitol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7918-a383-184e5cafca19",
+        "type": "mcq-single",
+        "question": "Jaký je mechanismus účinku spironolaktonu na molekulární úrovni?",
+        "options": [
+            "Blokáda intracelulárních mineralokortikoidních receptorů",
+            "Blokáda sodíkových kanálů v membráně",
+            "Inhibice renin-angiotenzin systému v plazmě",
+            "Stimulace ADH"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-78be-9e47-0a16915aa3cc",
+        "type": "mcq-single",
+        "question": "Který lék je aktivním metabolitem spironolaktonu?",
+        "options": [
+            "Kanrenon",
+            "Eplerenon",
+            "Amilorid",
+            "Furosemid"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7c8e-a0a1-c16a7292a3bc",
+        "type": "mcq-single",
+        "question": "V čem se liší eplerenon od spironolaktonu?",
+        "options": [
+            "Je silnější",
+            "Je selektivnější (méně hormonálních NÚ)",
+            "Má delší poločas",
+            "Je to kličkové diuretikum"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7f86-9917-02fcbf97f503",
+        "type": "mcq-single",
+        "question": "Které diuretikum působí inhibicí sodíkových kanálů v distálním tubulu/sběracím kanálku (bez přímé vazby na aldosteronový receptor)?",
+        "options": [
+            "Spironolakton",
+            "Amilorid",
+            "Indapamid",
+            "Chlortalidon"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7663-bceb-b5cddf5a96f5",
+        "type": "mcq-single",
+        "question": "Jaké je riziko kombinace ACE inhibitoru a spironolaktonu?",
+        "options": [
+            "Těžká hypokalemie",
+            "Závažná hyperkalemie",
+            "Hypotenze bez rizika iontů",
+            "Bradykardie"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-73ce-9e2b-35a61ff8bffc",
+        "type": "mcq-single",
+        "question": "Co je to \"sekvenční blokáda\" nefronu?",
+        "options": [
+            "Kombinace kličkového diuretika a thiazidu k překonání rezistence",
+            "Postupné nasazování léků",
+            "Blokáda RAAS na více úrovních",
+            "Kombinace BB a BKK"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7b01-8d11-4a5136246e9b",
+        "type": "mcq-single",
+        "question": "Který betablokátor má nejdelší poločas a vylučuje se převážně hepatálně?",
+        "options": [
+            "Esmolol",
+            "Nebivolol",
+            "Atenolol",
+            "Sotalol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-711d-848b-71f3b781a9f1",
+        "type": "mcq-single",
+        "question": "Jaký specifický účinek má Nebivolol kromě blokády beta-1 receptorů?",
+        "options": [
+            "Blokáda alfa-1 receptorů",
+            "Stimulace tvorby NO (vazodilatace)",
+            "Blokáda kalciových kanálů",
+            "Agonista beta-2"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7890-94b1-c83cc891bedb",
+        "type": "mcq-single",
+        "question": "Který betablokátor se používá při léčbě glaukomu?",
+        "options": [
+            "Timolol",
+            "Bisoprolol",
+            "Metoprolol",
+            "Esmolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-72ac-9a62-1987b53703b9",
+        "type": "mcq-single",
+        "question": "Co znamená termín \"bathmotropní účinek\" u betablokátorů?",
+        "options": [
+            "Snížení dráždivosti",
+            "Snížení vodivosti",
+            "Snížení frekvence",
+            "Snížení kontraktility"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-74ec-976f-e67694197e75",
+        "type": "mcq-single",
+        "question": "Který betablokátor je vysoce hydrofilní a jeho dávka se musí upravovat při renálním selhání?",
+        "options": [
+            "Atenolol",
+            "Metoprolol",
+            "Karvedilol",
+            "Propranolol"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": "019c9402-e90f-7c5f-88b3-c58337ad0c86",
+        "type": "mcq-single",
+        "question": "Který betablokátor prokázal snížení mortality u pacientů na hemodialýze?",
+        "options": [
+            "Atenolol",
+            "Karvedilol (a další nedialyzovatelné)",
+            "Sotalol",
+            "Acebutolol"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": "019c9402-e90f-7d48-a2dd-8bcd7ddf03c7",
+        "type": "mcq-single",
+        "question": "Který betablokátor má kromě beta blokády i alfa-1 blokující účinek a antioxidační vlastnosti?",
+        "options": [
+            "Karvedilol",
+            "Bisoprolol",
+            "Nebivolol",
+            "Metoprolol"
+        ],
+        "correctIndex": 0
+    }
+]
+}

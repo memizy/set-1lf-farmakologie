@@ -4,7 +4,7 @@
 **OQSE Study Set for Memizy**
 
 ![OQSE Version](https://img.shields.io/badge/OQSE-v0.1-orange?style=for-the-badge)
-![Items](https://img.shields.io/badge/Questions-100_MCQ-success?style=for-the-badge)
+![Items](https://img.shields.io/badge/Questions-155_MCQ-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-blue?style=for-the-badge)
 
 <br>
